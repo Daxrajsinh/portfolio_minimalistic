@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    height: 83vh;
+    height: 100vh;
     margin-bottom: 6rem;
   }
   .about-containers {
@@ -50,8 +50,8 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
+    width: 300px; /* Increased from 275px */
+    height: 300px; /* Increased from 275px */
     margin: 0 auto 2rem;
   }
   .about-containers {
@@ -65,7 +65,7 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
+    height: 100vh;
     margin-bottom: 0;
   }
   article {
@@ -99,8 +99,8 @@
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
-    height: 46vw;
+    width: 60vw; /* Adjusted from auto */
+    height: 60vw; /* Adjusted from 46vw */
     justify-content: center;
   }
   .section__text__p2 {

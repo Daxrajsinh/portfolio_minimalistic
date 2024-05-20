@@ -57,7 +57,11 @@ input:checked + .slider:before {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  background-color:#e1dbdb;
 }
 html {
   scroll-behavior: smooth;
@@ -254,9 +258,15 @@ section {
 
 .section__pic-container {
   display: flex;
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
   height: 400px;
   width: 400px;
   margin: auto 0;
+}
+
+.section__pic-container:hover {
+  filter: grayscale(0%);
 }
 
 .section__text {
@@ -395,6 +405,7 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  margin-left: -10%;
 }
 
 /* EXPERIENCE SECTION */
