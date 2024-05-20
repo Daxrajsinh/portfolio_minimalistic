@@ -19,13 +19,3 @@ function changeWord() {
 }
 
 setInterval(changeWord, 2000);
-
-const checkbox = document.getElementById('checkbox');
-
-checkbox.addEventListener('change', function() {
-  if(this.checked) {
-    enableDarkTheme();
-  } else {
-    disableDarkTheme();
-  }
-});

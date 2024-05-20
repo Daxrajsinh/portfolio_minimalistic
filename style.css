@@ -59,11 +59,6 @@ input:checked + .slider:before {
 body {
   font-family: "Poppins", sans-serif;
 }
-body.dark-mode {
-  font-family: "Poppins", sans-serif;
-  background-color: rgb(45, 44, 44);
-}
-
 html {
   scroll-behavior: smooth;
 }
